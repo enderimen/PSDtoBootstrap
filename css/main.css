@@ -135,3 +135,20 @@ header nav ul li a:hover , header nav ul li a:focus{
 	padding-left: 0;
 	padding-right: 0;
 }
+
+/*Counter arkaplanı resmi ekledik*/
+#counter{
+	background-image: url('../img/counter.jpg');
+	background-size: cover; 
+	padding: 50px 0 50px 0;
+}
+/*Counter içerisindeki başlığı özelleştirdik*/
+#counter h1{
+	color: white;
+	font-size: 24px;
+}
+/*counter içerisindeki resimleri özelleştirdik*/
+#counter .fa-clock-o, .fa-users, .fa-thumbs-up{
+	font-size: 72px;
+	color: white;
+}
