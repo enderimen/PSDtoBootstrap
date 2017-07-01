@@ -106,3 +106,32 @@ header nav ul li a:hover , header nav ul li a:focus{
 	font-weight: 10;
 	color: #c61f27;
 }
+
+/*Works u özelleştirdik*/
+#works{
+	background-image: url('../img/works-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*Works içerisindeki başlığı özelleştirdik*/
+#works h1{
+	color: white;
+}
+/*Works içerisindeki yazıyı özelleştirdik*/
+#works p{
+	color: white;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 20;
+	margin-bottom: 40px; 
+}
+.col-md-3 img{
+	width: 100%;
+}
+
+.col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
