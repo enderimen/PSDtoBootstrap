@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*backgroun resmini ayarladık*/
+header{
+	background-color: transparent;
+	height: 80px;
+	line-height: 80px;
+	position: fixed;
+	width: 100%;
+}
+/*menulerin list stillerini kaldırdık*/
+header nav ul{
+	list-style: none;
+}
+/*Menulerin yan yana gelmesini sağladık*/
+header nav ul li{
+	display: inline-block;
+	padding-left: 30px;
+}
+/*Logoyu sol a yasladık*/
+header a .logo{
+	float: left;
+} 
+/*Menüleri sağa yasladık*/
+header nav{
+	float: right;
+}
+/*menü renklerini ayarladık*/
+header nav ul li a{
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+}
+/*menünün üzerine geldiğimizde alt çizgiyi kaldırdık.*/
+header nav ul li a:hover , header nav ul li a:focus{
+	color: #c61f27;
+	transition-duration: 0.4;
+	text-decoration: none;
+
+}
+
+#mainContent{
+	background-image: url('../img/main.jpg');
+}
+.mainArea{
+	margin-top:200px; 
+}
+.mainArea h2{
+	font-size: 36px;
+	color: white;
+	margin-bottom: 30px;
+}
+.mainArea p{
+	font-size: 14px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+.mainArea .btn-success{
+	background-color: #c61f27;
+	border: none;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-bottom: 60px;
+}
