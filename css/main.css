@@ -5,13 +5,18 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+h1{
+	font-size:36px; 
+}
 /*backgroun resmini ayarladık*/
 header{
-	background-color: transparent;
+	background-color: black;
 	height: 80px;
+	width: 100%;
 	line-height: 80px;
 	position: fixed;
-	width: 100%;
+	opacity: 0.6;
+	z-index: 999;
 }
 /*menulerin list stillerini kaldırdık*/
 header nav ul{
@@ -41,26 +46,30 @@ header nav ul li a:hover , header nav ul li a:focus{
 	color: #c61f27;
 	transition-duration: 0.4;
 	text-decoration: none;
-
 }
-
+/*Mainimizin arka planını ayarladık*/
 #mainContent{
 	background-image: url('../img/main.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 .mainArea{
 	margin-top:200px; 
 }
+/*Main içerisindeki başlığı özelleştirdik*/
 .mainArea h2{
 	font-size: 36px;
 	color: white;
 	margin-bottom: 30px;
 }
+/*Main içerisindeki yazıyı özelleştirdik*/
 .mainArea p{
 	font-size: 14px;
 	color: white;
 	margin-bottom: 40px;
 }
-
+/*Main içerisindeki butonu özelleştirdik*/
 .mainArea .btn-success{
 	background-color: #c61f27;
 	border: none;
@@ -68,4 +77,32 @@ header nav ul li a:hover , header nav ul li a:focus{
 	height: 80px;
 	border-radius: 50%;
 	margin-bottom: 60px;
+}
+/*Services i özelleştirdik*/
+#services{
+	background-color: #efefef;
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+}	
+/*Services içerisindeki başlığı özelleştirdik*/
+.services-top h1{
+	color: #c61f27;
+}
+/*Services içerisindeki yazıyı özelleştirdik*/
+.services-top p{
+	color: black;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 20;
+	margin-bottom: 40px; 
+}
+/*Services içerisindeki Font awasame özelleştirdik*/
+.fa{
+	color: #c61f27;
+}
+/*Services içeriğini özelleştirdik*/
+.services-content{
+	font-size: 14px;
+	font-weight: 10;
+	color: #c61f27;
 }
