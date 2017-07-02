@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet"><!--My Css-->
 
   <!--Css End-->
@@ -63,17 +65,17 @@
       </div>
       <div class="services-content">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
               <i class="fa fa-desktop fa-4x" aria-hidden="true"></i>
               <h2>Web Design</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ut, nobis asperiores, quaerat vel totam voluptatibus similique voluptatum illo.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
               <i class="fa fa-print fa-4x" aria-hidden="true"></i>
               <h2>Print Design</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ut, nobis asperiores, quaerat vel totam voluptatibus similique voluptatum illo.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
               <i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
               <h2>Mobil Design</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ut, nobis asperiores, quaerat vel totam voluptatibus similique voluptatum illo.</p>
@@ -94,16 +96,16 @@
       <div class="works-content">
           <div class="row">
             <div class="col-md-3">
-              <a href="#"><img src="img/image1.jpg" alt="image1"></a>
+              <a href="img/img1.jpg" data-lightbox="image-1" data-title="Örnek Resim 1"><img src="img/image1.jpg" alt="image1"></a>
             </div>
             <div class="col-md-3">
-              <a href="#"><img src="img/image2.jpg" alt="image2"></a>
+              <a href="img/img2.jpg" data-lightbox="image-1" data-title="Örnek Resim 2"><img src="img/image2.jpg" alt="image2"></a>
             </div>
             <div class="col-md-3">
-              <a href="#"><img src="img/image3.jpg" alt="image3"></a>
+              <a href="img/img3.jpg" data-lightbox="image-1" data-title="Örnek Resim 3"><img src="img/image3.jpg" alt="image3"></a>
             </div>
             <div class="col-md-3">
-              <a href="#"><img src="img/image4.jpg" alt="image4"></a>
+              <a href="img/img4.jpg" data-lightbox="image-1" data-title="Örnek Resim 4"><img src="img/image4.jpg" alt="image4"></a>
             </div>
           </div>
       </div>
@@ -114,7 +116,7 @@
   <!--Counter-->
   <section id="counter" class="text-center">
     <div class="container">
-      <div class="row">
+      <div class="row wow bounceIn">
         <div class="col-md-4">
           <i class="fa fa-clock-o fa-4x" aria-hidden="true"></i>
           <h1>1286 HOURS OF WORK</h1>
@@ -142,21 +144,21 @@
       </div>
       <div class="team-content">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 wow bounceInUp" data-wow-delay="0.2s">
             <img src="img/rainer_thomas.png" alt="">
             <h3>Rainer Thomas</h3>
             <p>Managing Director</p>
             <img src="img/twitter.png" alt="">
             <img src="img/linkedin.png" alt="">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow bounceInUp" data-wow-delay="0.4s">
             <img src="img/arne-bjenne-haarbo.png" alt="">
             <h3>Arne Bjenne Haarbo</h3>
             <p>Lead Designer</p>
             <img src="img/twitter.png" alt="">
             <img src="img/linkedin.png" alt="">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow bounceInUp" data-wow-delay="0.6s">
             <img src="img/satya_nadella.png" alt="">
             <h3>Satya Nadella</h3>
             <p>Lead Coder</p>
@@ -230,6 +232,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scroll-effect.js">></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/scroll-effect.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>
